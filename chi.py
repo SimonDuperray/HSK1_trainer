@@ -168,6 +168,9 @@ for i in range(0, init_len):
    lng = lngs[randint(0, 2)]
    rdm = caratteres[idx][lng]
    print(f"{gen_equals(len(rdm))}\n > [{i+1}-{init_len}] -> {lng}: {rdm}\n{gen_equals(len(rdm))}")
+   print_correct = input("Enter to show correction !")
+   if print_correct is not None:
+      print(f">>> Correction: fr -> {caratteres[idx]['fr']}: ch -> {caratteres[idx]['ch']}: py -> {caratteres[idx]['py']}")
    del caratteres[idx]
    is_correct = input("correct [*] / incorrect [n] ? ")
    if is_correct=="n":
