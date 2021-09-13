@@ -86,7 +86,8 @@ def check_if_learned(word, filename='results.json'):
       data = json.load(file)['evolution']
       for i in range(len(data)):
          if data[i]['word']==word:
-            if data[i]['nb_correct']==10:
+            if data[i]['nb_correct']==25:
+               # 17
                to_return = "Vous avez eu bon 25 fois à ce mot ! Il est considéré comme acquis ! Bravo !"
                break
    return to_return
