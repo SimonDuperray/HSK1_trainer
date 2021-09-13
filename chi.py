@@ -55,6 +55,30 @@ def get_occ_best_score(current_score, filename='results.json'):
             to_return = data[k]['occ']+1
    return to_return
 
+def get_evolution(word, filename='results.json'):
+   with open(filename, 'r') as file:
+      existing_data = json.load(file)
+      buffer = None
+      current_stocked_evolutions = existing_data['evolution']
+      for k in range(len(current_stocked_evolutions)):
+         if current_stocked_evolutions[k]['word']==word:
+            buffer = current_stocked_evolutions[k]
+            break
+      if buffer is not None:
+         buffer['nb_correct']+=1
+      else:
+         current_stocked_evolutions.append(
+            {
+               "word": word,
+               "nb_correct": 0
+            }
+         )
+      return existing_data
+
+def replace_data_in_file(data, filename='results.json'):
+   with open(filename, 'w') as file:
+      json.dump(data, file, indent=3)
+      
 caratteres = [
    {
       'fr': 'un',
@@ -170,6 +194,7 @@ for i in range(0, init_len):
    print(f"{gen_equals(len(rdm))}\n > [{i+1}-{init_len}] -> {lng}: {rdm}\n{gen_equals(len(rdm))}")
    print_correct = input("Enter to show correction !")
    if print_correct is not None:
+      buffer = caratteres[idx]['fr']
       print(f">>> Correction: fr -> {caratteres[idx]['fr']}: ch -> {caratteres[idx]['ch']}: py -> {caratteres[idx]['py']}")
    del caratteres[idx]
    is_correct = input("correct [*] / incorrect [n] ? ")
@@ -177,6 +202,7 @@ for i in range(0, init_len):
       not_correct+=1
    else:
       correct += 1
+      replace_data_in_file(get_evolution(buffer))
    if i+1 == init_len:
       final_percent = percent_correct(init_len, correct)
       print(f">>> Fin de la série !\n>>> Résultats: {final_percent}% de bonnes réponses ({correct} correctes/{not_correct} incorrectes)")
