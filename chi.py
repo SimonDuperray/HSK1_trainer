@@ -79,6 +79,17 @@ def replace_data_in_file(data, filename='results.json'):
    with open(filename, 'w') as file:
       json.dump(data, file, indent=3)
       
+def check_if_learned(word, filename='results.json'):
+   to_return = None
+   with open(filename, "r") as file:
+      data = json.load(file)['evolution']
+      for i in range(len(data)):
+         if data[i]['word']==word:
+            if data[i]['nb_correct']==25:
+               to_return = "Vous avez eu bon 25 fois à ce mot ! Il est considéré comme acquis ! Bravo !"
+               break
+   return to_return
+
 caratteres = [
    {
       'fr': 'un',
@@ -203,6 +214,9 @@ for i in range(0, init_len):
    else:
       correct += 1
       replace_data_in_file(get_evolution(buffer))
+      is_learned = check_if_learned(buffer)
+      if is_learned is not None:
+         print(is_learned)
    if i+1 == init_len:
       final_percent = percent_correct(init_len, correct)
       print(f">>> Fin de la série !\n>>> Résultats: {final_percent}% de bonnes réponses ({correct} correctes/{not_correct} incorrectes)")

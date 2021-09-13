@@ -27,88 +27,95 @@
          "incorrect": 0,
          "len": 20,
          "percent": 100
+      },
+      {
+         "id": "13-9-2021//20:26:3",
+         "correct": 20,
+         "incorrect": 0,
+         "len": 20,
+         "percent": 100
       }
    ],
    "evolution": [
       {
          "word": "un",
-         "nb_correct": 2
+         "nb_correct": 4
       },
       {
          "word": "deux",
-         "nb_correct": 2
+         "nb_correct": 5
       },
       {
          "word": "huit",
-         "nb_correct": 1
+         "nb_correct": 3
       },
       {
          "word": "trois",
-         "nb_correct": 1
+         "nb_correct": 3
       },
       {
          "word": "dix",
-         "nb_correct": 1
+         "nb_correct": 3
       },
       {
          "word": "venir; arriver; se rallier; depuis; suivant",
-         "nb_correct": 1
+         "nb_correct": 2
       },
       {
          "word": "quatre",
-         "nb_correct": 1
+         "nb_correct": 2
       },
       {
          "word": "six",
-         "nb_correct": 1
+         "nb_correct": 3
       },
       {
          "word": "revenir; faire demi-tour; r\u00e9pondre; revenir; tourner; Groupe ethnique Hui; temps; classificateur des actes d'une pi\u00e8ce; section ou chapitre (d'un livre classique)",
-         "nb_correct": 1
+         "nb_correct": 2
       },
       {
          "word": "aimer; affectionner; \u00eatre friand de; amour",
-         "nb_correct": 1
+         "nb_correct": 2
       },
       {
          "word": "boire; crier (un ordre)",
-         "nb_correct": 1
+         "nb_correct": 3
       },
       {
          "word": "neuf",
-         "nb_correct": 1
+         "nb_correct": 3
       },
       {
          "word": "t\u00e9l\u00e9phoner",
-         "nb_correct": 1
+         "nb_correct": 2
       },
       {
          "word": "regarder",
-         "nb_correct": 1
+         "nb_correct": 2
       },
       {
          "word": "sept",
-         "nb_correct": 1
+         "nb_correct": 3
       },
       {
          "word": "(s') appeler; crier; ordonner; demander; appeler; par (indique l'agent dans la mode passive)",
-         "nb_correct": 1
+         "nb_correct": 2
       },
       {
          "word": "ouvrir; commencer; allumer; conduire (un v\u00e9hicule)",
-         "nb_correct": 1
+         "nb_correct": 3
       },
       {
          "word": "cinq",
-         "nb_correct": 1
+         "nb_correct": 2
       },
       {
          "word": "manger; avoir son repas",
-         "nb_correct": 1
+         "nb_correct": 2
       },
       {
          "word": "voir; apercevoir",
-         "nb_correct": 1
+         "nb_correct": 2
       }
    ],
    "scores": [
@@ -122,7 +129,7 @@
       },
       {
          "score": 100,
-         "occ": 2
+         "occ": 3
       }
    ]
 }
