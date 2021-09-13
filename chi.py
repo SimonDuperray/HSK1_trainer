@@ -1,4 +1,5 @@
 from random import randint
+from termcolor import colored
 import json, time
 
 def gen_equals(nb_of_eq):
@@ -85,7 +86,7 @@ def check_if_learned(word, filename='results.json'):
       data = json.load(file)['evolution']
       for i in range(len(data)):
          if data[i]['word']==word:
-            if data[i]['nb_correct']==25:
+            if data[i]['nb_correct']==10:
                to_return = "Vous avez eu bon 25 fois à ce mot ! Il est considéré comme acquis ! Bravo !"
                break
    return to_return
@@ -202,11 +203,11 @@ for i in range(0, init_len):
    idx = randint(0, init_len-1-i)
    lng = lngs[randint(0, 2)]
    rdm = caratteres[idx][lng]
-   print(f"{gen_equals(len(rdm))}\n > [{i+1}-{init_len}] -> {lng}: {rdm}\n{gen_equals(len(rdm))}")
+   print(colored(f"{gen_equals(len(rdm))}\n > [{i+1}-{init_len}] -> {lng}: {rdm}\n{gen_equals(len(rdm))}", "blue"))
    print_correct = input("Enter to show correction !")
    if print_correct is not None:
       buffer = caratteres[idx]['fr']
-      print(f">>> Correction: fr -> {caratteres[idx]['fr']}: ch -> {caratteres[idx]['ch']}: py -> {caratteres[idx]['py']}")
+      print(colored(f">>> Correction: fr -> {caratteres[idx]['fr']}: ch -> {caratteres[idx]['ch']}: py -> {caratteres[idx]['py']}", "cyan"))
    del caratteres[idx]
    is_correct = input("correct [*] / incorrect [n] ? ")
    if is_correct=="n":
@@ -216,10 +217,10 @@ for i in range(0, init_len):
       replace_data_in_file(get_evolution(buffer))
       is_learned = check_if_learned(buffer)
       if is_learned is not None:
-         print(is_learned)
+        print(colored((">>> "+is_learned), "yellow"))
    if i+1 == init_len:
       final_percent = percent_correct(init_len, correct)
-      print(f">>> Fin de la série !\n>>> Résultats: {final_percent}% de bonnes réponses ({correct} correctes/{not_correct} incorrectes)")
+      print(colored(f">>> Fin de la série !\n>>> Résultats: {final_percent}% de bonnes réponses ({correct} correctes/{not_correct} incorrectes)", "green"))
       if final_percent>max(get_best_score()):
          print(">>> Nouveau meilleure score ! Bravo !")
       elif final_percent>=max(get_best_score()):
