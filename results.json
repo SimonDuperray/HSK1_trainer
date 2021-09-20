@@ -20,88 +20,566 @@
          "incorrect": 1,
          "len": 20,
          "percent": 95
+      },
+      {
+         "id": "13-9-2021//21:3:54",
+         "correct": 18,
+         "incorrect": 2,
+         "len": 20,
+         "percent": 90
+      },
+      {
+         "id": "13-9-2021//21:7:56",
+         "correct": 20,
+         "incorrect": 0,
+         "len": 20,
+         "percent": 100
+      },
+      {
+         "id": "14-9-2021//19:17:42",
+         "correct": 22,
+         "incorrect": 2,
+         "len": 24,
+         "percent": 91
+      },
+      {
+         "id": "14-9-2021//19:25:55",
+         "correct": 20,
+         "incorrect": 4,
+         "len": 24,
+         "percent": 83
+      },
+      {
+         "id": "14-9-2021//19:37:26",
+         "correct": 23,
+         "incorrect": 1,
+         "len": 24,
+         "percent": 95
+      },
+      {
+         "id": "14-9-2021//19:49:13",
+         "correct": 23,
+         "incorrect": 1,
+         "len": 24,
+         "percent": 95
+      },
+      {
+         "id": "14-9-2021//20:5:14",
+         "correct": 25,
+         "incorrect": 0,
+         "len": 25,
+         "percent": 100
+      },
+      {
+         "id": "14-9-2021//20:9:17",
+         "correct": 24,
+         "incorrect": 1,
+         "len": 25,
+         "percent": 96
+      },
+      {
+         "id": "15-9-2021//15:3:48",
+         "correct": 24,
+         "incorrect": 1,
+         "len": 25,
+         "percent": 96
+      },
+      {
+         "id": "15-9-2021//16:40:2",
+         "correct": 25,
+         "incorrect": 0,
+         "len": 25,
+         "percent": 100
+      },
+      {
+         "id": "17-9-2021//18:4:25",
+         "correct": 24,
+         "incorrect": 1,
+         "len": 25,
+         "percent": 96
+      },
+      {
+         "id": "17-9-2021//18:21:17",
+         "correct": 25,
+         "incorrect": 2,
+         "len": 27,
+         "percent": 92
+      },
+      {
+         "id": "17-9-2021//18:31:52",
+         "correct": 26,
+         "incorrect": 1,
+         "len": 27,
+         "percent": 96
+      },
+      {
+         "id": "17-9-2021//18:38:54",
+         "correct": 28,
+         "incorrect": 0,
+         "len": 28,
+         "percent": 100
+      },
+      {
+         "id": "17-9-2021//18:46:5",
+         "correct": 27,
+         "incorrect": 1,
+         "len": 28,
+         "percent": 96
+      },
+      {
+         "id": "17-9-2021//18:56:53",
+         "correct": 28,
+         "incorrect": 1,
+         "len": 29,
+         "percent": 96
+      },
+      {
+         "id": "17-9-2021//19:11:5",
+         "correct": 26,
+         "incorrect": 3,
+         "len": 29,
+         "percent": 89
+      },
+      {
+         "id": "17-9-2021//19:43:9",
+         "correct": 27,
+         "incorrect": 2,
+         "len": 29,
+         "percent": 93
+      },
+      {
+         "id": "17-9-2021//20:29:57",
+         "correct": 29,
+         "incorrect": 0,
+         "len": 29,
+         "percent": 100
+      },
+      {
+         "id": "18-9-2021//10:16:32",
+         "correct": 29,
+         "incorrect": 1,
+         "len": 30,
+         "percent": 96
+      },
+      {
+         "id": "18-9-2021//13:54:7",
+         "correct": 28,
+         "incorrect": 2,
+         "len": 30,
+         "percent": 93
+      },
+      {
+         "id": "18-9-2021//18:38:44",
+         "correct": 30,
+         "incorrect": 0,
+         "len": 30,
+         "percent": 100
+      },
+      {
+         "id": "18-9-2021//19:5:41",
+         "correct": 30,
+         "incorrect": 0,
+         "len": 30,
+         "percent": 100
+      },
+      {
+         "id": "18-9-2021//19:30:1",
+         "correct": 30,
+         "incorrect": 0,
+         "len": 30,
+         "percent": 100
+      },
+      {
+         "id": "18-9-2021//19:51:25",
+         "correct": 28,
+         "incorrect": 2,
+         "len": 30,
+         "percent": 93
+      },
+      {
+         "id": "18-9-2021//20:10:10",
+         "correct": 31,
+         "incorrect": 2,
+         "len": 33,
+         "percent": 93
+      },
+      {
+         "id": "18-9-2021//20:23:23",
+         "correct": 33,
+         "incorrect": 0,
+         "len": 33,
+         "percent": 100
+      },
+      {
+         "id": "19-9-2021//8:27:38",
+         "correct": 33,
+         "incorrect": 0,
+         "len": 33,
+         "percent": 100
+      },
+      {
+         "id": "19-9-2021//8:43:29",
+         "correct": 34,
+         "incorrect": 1,
+         "len": 35,
+         "percent": 97
+      },
+      {
+         "id": "19-9-2021//11:16:56",
+         "correct": 35,
+         "incorrect": 0,
+         "len": 35,
+         "percent": 100
+      },
+      {
+         "id": "19-9-2021//11:28:59",
+         "correct": 35,
+         "incorrect": 0,
+         "len": 35,
+         "percent": 100
+      },
+      {
+         "id": "19-9-2021//11:40:9",
+         "correct": 35,
+         "incorrect": 0,
+         "len": 35,
+         "percent": 100
+      },
+      {
+         "id": "19-9-2021//11:50:3",
+         "correct": 35,
+         "incorrect": 0,
+         "len": 35,
+         "percent": 100
+      },
+      {
+         "id": "19-9-2021//18:56:47",
+         "correct": 33,
+         "incorrect": 2,
+         "len": 35,
+         "percent": 94
+      },
+      {
+         "id": "19-9-2021//19:5:17",
+         "correct": 35,
+         "incorrect": 0,
+         "len": 35,
+         "percent": 100
+      },
+      {
+         "id": "19-9-2021//19:30:51",
+         "correct": 37,
+         "incorrect": 0,
+         "len": 37,
+         "percent": 100
+      },
+      {
+         "id": "19-9-2021//19:43:5",
+         "correct": 35,
+         "incorrect": 2,
+         "len": 37,
+         "percent": 94
+      },
+      {
+         "id": "19-9-2021//20:11:15",
+         "correct": 38,
+         "incorrect": 0,
+         "len": 38,
+         "percent": 100
+      },
+      {
+         "id": "20-9-2021//18:56:57",
+         "correct": 37,
+         "incorrect": 1,
+         "len": 38,
+         "percent": 97
+      },
+      {
+         "id": "20-9-2021//20:1:4",
+         "correct": 37,
+         "incorrect": 1,
+         "len": 38,
+         "percent": 97
+      },
+      {
+         "id": "20-9-2021//20:13:13",
+         "correct": 38,
+         "incorrect": 0,
+         "len": 38,
+         "percent": 100
+      },
+      {
+         "id": "20-9-2021//20:29:3",
+         "correct": 38,
+         "incorrect": 0,
+         "len": 38,
+         "percent": 100
       }
    ],
    "evolution": [
       {
          "word": "un",
-         "nb_correct": 2
+         "nb_correct": 45
       },
       {
          "word": "deux",
-         "nb_correct": 2
+         "nb_correct": 45
       },
       {
          "word": "huit",
-         "nb_correct": 2
+         "nb_correct": 47
       },
       {
          "word": "trois",
-         "nb_correct": 2
+         "nb_correct": 45
       },
       {
          "word": "dix",
-         "nb_correct": 1
+         "nb_correct": 44
       },
       {
          "word": "venir; arriver; se rallier; depuis; suivant",
-         "nb_correct": 2
+         "nb_correct": 44
       },
       {
          "word": "quatre",
-         "nb_correct": 2
+         "nb_correct": 45
       },
       {
          "word": "six",
-         "nb_correct": 2
+         "nb_correct": 46
       },
       {
          "word": "revenir; faire demi-tour; r\u00e9pondre; revenir; tourner; Groupe ethnique Hui; temps; classificateur des actes d'une pi\u00e8ce; section ou chapitre (d'un livre classique)",
-         "nb_correct": 2
+         "nb_correct": 46
       },
       {
          "word": "aimer; affectionner; \u00eatre friand de; amour",
-         "nb_correct": 1
+         "nb_correct": 43
       },
       {
          "word": "boire; crier (un ordre)",
-         "nb_correct": 2
+         "nb_correct": 43
       },
       {
          "word": "neuf",
-         "nb_correct": 2
+         "nb_correct": 45
       },
       {
          "word": "t\u00e9l\u00e9phoner",
-         "nb_correct": 2
+         "nb_correct": 45
       },
       {
          "word": "regarder",
-         "nb_correct": 2
+         "nb_correct": 45
       },
       {
          "word": "sept",
-         "nb_correct": 1
+         "nb_correct": 45
       },
       {
          "word": "(s') appeler; crier; ordonner; demander; appeler; par (indique l'agent dans la mode passive)",
-         "nb_correct": 2
+         "nb_correct": 45
       },
       {
          "word": "ouvrir; commencer; allumer; conduire (un v\u00e9hicule)",
-         "nb_correct": 2
+         "nb_correct": 45
       },
       {
          "word": "cinq",
-         "nb_correct": 2
+         "nb_correct": 45
       },
       {
          "word": "manger; avoir son repas",
-         "nb_correct": 2
+         "nb_correct": 47
       },
       {
          "word": "voir; apercevoir",
-         "nb_correct": 2
+         "nb_correct": 44
+      },
+      {
+         "word": "p\u00e8re (informel); CL: \u4e2a[ge4], \u4f4d[wei4]",
+         "nb_correct": 41
+      },
+      {
+         "word": "origine; source; racine; tiges des plantes; fondation; base; classificateur pour les livres, les p\u00e9riodiques, les fichiers, etc; initialement",
+         "nb_correct": 39
+      },
+      {
+         "word": "Beijing; capitale de la R\u00e9publique populaire de Chine; P\u00e9kin",
+         "nb_correct": 33
+      },
+      {
+         "word": "tasse; verre; CL: \u4e2a[ge4], \u652f[zhi1]",
+         "nb_correct": 35
+      },
+      {
+         "word": "ne pas (pr\u00e9fixe n\u00e9gatif); pas; aucun",
+         "nb_correct": 34
+      },
+      {
+         "word": "grand; important; large; le plus ancien; a\u00een\u00e9",
+         "nb_correct": 31
+      },
+      {
+         "word": "th\u00e9; feuille de th\u00e9; CL: \u676f[bei1], \u58f6[hu2]",
+         "nb_correct": 25
+      },
+      {
+         "word": "plat (aliments); l\u00e9gumes; cuisine; CL: \u76d8[pan2], \u9053[dao4]",
+         "nb_correct": 25
+      },
+      {
+         "word": "taxi",
+         "nb_correct": 23
+      },
+      {
+         "word": "Je vous en prie; de rien (r\u00e9ponse \u00e0 quelqu'un qui remercie)",
+         "nb_correct": 18
+      },
+      {
+         "word": "un peu; certain; goutte (de liquide); tache; rep\u00e9rer; grain; noter; virgule (en caract\u00e8res chinois); point d\u00e9cimal; marque (de degr\u00e9 ou niveau); une place (avec certaines caract\u00e9ristiques); heures; aborder bri\u00e8vement; pr\u00e9ciser; la lumi\u00e8re; allumer; p\u00e9riode de temps pendant la nuit (24 minutes) (ancien); un goutte \u00e0 goutte; plantoir; classificateur des petites quantit\u00e9s ind\u00e9termin\u00e9es",
+         "nb_correct": 14
+      },
+      {
+         "word": "beaucoup; nombreux; multi-",
+         "nb_correct": 15
+      },
+      {
+         "word": "de (particule de possession ou de description)",
+         "nb_correct": 16
+      },
+      {
+         "word": "chose; des trucs; personne (p\u00e9joratif); CL: \u4e2a[ge4], \u4ef6[jian4]",
+         "nb_correct": 10
+      },
+      {
+         "word": "tous; tout; enti\u00e8rement (\u00e0 cause de) chacune; m\u00eame; d\u00e9j\u00e0",
+         "nb_correct": 12
+      },
+      {
+         "word": "t\u00e9l\u00e9vision; TV; CL: \u53f0[tai2], \u4e2a[ge4]",
+         "nb_correct": 4
+      },
+      {
+         "word": "ordinateur; CL: \u53f0[tai2]",
+         "nb_correct": 5
+      },
+      {
+         "word": "film; CL: \u90e8[bu4], \u5e55[mu4], \u573a[chang3]",
+         "nb_correct": 3
+      },
+      {
+         "word": "un peu; certain; goutte (de liquide); tache; r ep\u00e9rer; grain; noter; virgule (en caract\u00e8res chinois); point d\u00e9cimal; marque (de degr\u00e9 ou niveau); une place (avec certaines caract\u00e9ristiques); heures; aborder bri\u00e8vement; pr\u00e9ciser; la lumi\u00e8re; allumer; p\u00e9riode de temps pendant la nuit (24 minutes) (ancien); un goutte \u00e0 goutte; plantoir; classificateur des petites quantit\u00e9s ind\u00e9termin\u00e9es",
+         "nb_correct": 0
+      },
+      {
+         "word": " depuis",
+         "nb_correct": 0
+      },
+      {
+         "word": " nombreux",
+         "nb_correct": 0
+      },
+      {
+         "word": "plat (aliments)",
+         "nb_correct": 0
+      },
+      {
+         "word": " point d\u00e9cimal",
+         "nb_correct": 0
+      },
+      {
+         "word": "film",
+         "nb_correct": 0
+      },
+      {
+         "word": " verre",
+         "nb_correct": 0
+      },
+      {
+         "word": " tout",
+         "nb_correct": 0
+      },
+      {
+         "word": " revenir",
+         "nb_correct": 0
+      },
+      {
+         "word": " affectionner",
+         "nb_correct": 0
+      },
+      {
+         "word": " pas",
+         "nb_correct": 0
+      },
+      {
+         "word": " cuisine",
+         "nb_correct": 0
+      },
+      {
+         "word": " apercevoir",
+         "nb_correct": 0
+      },
+      {
+         "word": "p\u00e8re",
+         "nb_correct": 0
+      },
+      {
+         "word": " P\u00e9kin",
+         "nb_correct": 0
+      },
+      {
+         "word": "origine",
+         "nb_correct": 0
+      },
+      {
+         "word": " multi-",
+         "nb_correct": 0
+      },
+      {
+         "word": "manger",
+         "nb_correct": 0
+      },
+      {
+         "word": "ouvrir",
+         "nb_correct": 0
+      },
+      {
+         "word": "boire",
+         "nb_correct": 0
+      },
+      {
+         "word": " des trucs",
+         "nb_correct": 0
+      },
+      {
+         "word": "t\u00e9l\u00e9vision",
+         "nb_correct": 0
+      },
+      {
+         "word": "ordinateur",
+         "nb_correct": 0
+      },
+      {
+         "word": " de rien",
+         "nb_correct": 0
+      },
+      {
+         "word": " par",
+         "nb_correct": 0
+      },
+      {
+         "word": "grand",
+         "nb_correct": 0
+      },
+      {
+         "word": " suivant",
+         "nb_correct": 0
+      },
+      {
+         "word": " feuille de th\u00e9",
+         "nb_correct": 0
       }
    ],
    "scores": [
@@ -111,11 +589,47 @@
       },
       {
          "score": 90,
-         "occ": 1
+         "occ": 2
       },
       {
          "score": 95,
+         "occ": 3
+      },
+      {
+         "score": 100,
+         "occ": 19
+      },
+      {
+         "score": 91,
          "occ": 1
+      },
+      {
+         "score": 83,
+         "occ": 1
+      },
+      {
+         "score": 96,
+         "occ": 7
+      },
+      {
+         "score": 92,
+         "occ": 1
+      },
+      {
+         "score": 89,
+         "occ": 1
+      },
+      {
+         "score": 93,
+         "occ": 4
+      },
+      {
+         "score": 97,
+         "occ": 3
+      },
+      {
+         "score": 94,
+         "occ": 2
       }
    ]
 }

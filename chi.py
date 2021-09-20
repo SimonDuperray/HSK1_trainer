@@ -1,6 +1,6 @@
 from random import randint
 from termcolor import colored
-import json, time
+import json, time, random
 
 def gen_equals(nb_of_eq):
    to_return = ""
@@ -169,7 +169,7 @@ caratteres = [
       'py': '回'
    },
    {
-      'fr': '(s\') appeler; crier; ordonner; demander; appeler; par (indique l\'agent dans la mode passive)',
+      'fr': '(s\') appeler; crier; ordonner; demander; appeler; par',
       'ch': 'jiào',
       'py': '叫'
    },
@@ -193,6 +193,106 @@ caratteres = [
       'ch': 'lái',
       'py': '来'
    },
+   {
+      'fr': 'père',
+      'ch': 'bà ba',
+      'py': '爸爸'
+   },
+   {
+      'fr': 'tasse; verre;',
+      'ch': 'bēi zi',
+      'py': '杯子'
+   },
+   {
+      'fr': 'Beijing; Pékin',
+      'ch': 'běi jīng',
+      'py': '北京'
+   },
+   {
+      'fr': 'origine; source; racine; tiges des plantes; fondation; base; classificateur pour les livres, les périodiques, les fichiers, etc; initialement',
+      'ch': 'běn',
+      'py': '本'
+   },
+   {
+      'fr': 'ne pas (préfixe négatif); pas; aucun',
+      'ch': 'bù',
+      'py': '不'
+   },
+   {
+      'fr': 'Je vous en prie; de rien',
+      'ch': 'bú kè qi',
+      'py': '不客气'
+   },
+   {
+      'fr': 'plat (aliments); légumes; cuisine',
+      'ch': 'cài',
+      'py': '菜'
+   },
+   {
+      'fr': 'thé; feuille de thé',
+      'ch': 'chá',
+      'py': '茶'
+   },
+   {
+      'fr': 'taxi',
+      'ch': 'chū zū chē',
+      'py': '出租车'
+   },
+   {
+      'fr': 'grand; important; large; le plus ancien; aîné',
+      'ch': 'dà',
+      'py': '大'
+   },
+   {
+      'fr': 'de (particule de possession ou de description)',
+      'ch': 'de',
+      'py': '的'
+   },
+   {
+      'fr': 'un peu; certain; goutte (de liquide); tache; repérer; grain; noter; virgule (en caractères chinois); point décimal; marque (de degré ou niveau); une place (avec certaines caractéristiques); heures; aborder brièvement; préciser; la lumière; allumer; période de temps pendant la nuit (24 minutes) (ancien); un goutte à goutte; plantoir; classificateur des petites quantités indéterminées',
+      'ch': 'diǎn',
+      'py': '点'
+   },
+   {
+      'fr': 'ordinateur',
+      'ch': 'diàn nǎo',
+      'py': '电脑'
+   },
+   {
+      'fr': 'télévision',
+      'ch': 'diàn shì',
+      'py': '电视'
+   },
+   {
+      'fr': 'film',
+      'ch': 'diàn yǐng',
+      'py': '电影'
+   },
+   {
+      'fr': 'chose; des trucs; personne (péjoratif)',
+      'ch': 'dōng xi',
+      'py': '东西'
+   },
+   {
+      'fr': 'tous; tout; entièrement (à cause de) chacune; même; déjà',
+      'ch': 'dōu',
+      'py': '都'
+   },
+   # {
+   #    'fr': 'lire; étudier; lecture de mot (par exemple la prononciation), similaire à 拼音[pin1 yin1]',
+   #    'ch': 'dú',
+   #    'py': '读'
+   # },
+   # {
+   #    'fr': 'Je suis désolé; Excusez-moi; s\'il vous plaît; désolé? (s\'il vous plaît répéter); indigne; laisser tomber;',
+   #    'ch': 'duì bu qǐ',
+   #    'py': '对不起'
+   # },
+   {
+      'fr': 'beaucoup; nombreux; multi-',
+      'ch': 'duō',
+      'py': '多'
+   }
 ]
 lngs = ['fr', 'ch', 'py']
 init_len = len(caratteres)
@@ -203,11 +303,15 @@ timeObj = time.localtime(secondsSinceEpoch)
 for i in range(0, init_len):
    idx = randint(0, init_len-1-i)
    lng = lngs[randint(0, 2)]
-   rdm = caratteres[idx][lng]
+   if lng=='fr':
+      rdm = random.choice(caratteres[idx][lng].split(';'))
+      rdm = random.choice([cara.strip() for cara in caratteres[idx][lng].split(";")])
+   else:
+      rdm = caratteres[idx][lng]
    print(colored(f"{gen_equals(len(rdm))}\n > [{i+1}-{init_len}] -> {lng}: {rdm}\n{gen_equals(len(rdm))}", "blue"))
    print_correct = input("Enter to show correction !")
    if print_correct is not None:
-      buffer = caratteres[idx]['fr']
+      buffer = random.choice(caratteres[idx]['fr'].split(';'))
       print(colored(f">>> Correction: fr -> {caratteres[idx]['fr']}: ch -> {caratteres[idx]['ch']}: py -> {caratteres[idx]['py']}", "cyan"))
    del caratteres[idx]
    is_correct = input("correct [*] / incorrect [n] ? ")
