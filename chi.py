@@ -304,7 +304,6 @@ for i in range(0, init_len):
    idx = randint(0, init_len-1-i)
    lng = lngs[randint(0, 2)]
    if lng=='fr':
-      rdm = random.choice(caratteres[idx][lng].split(';'))
       rdm = random.choice([cara.strip() for cara in caratteres[idx][lng].split(";")])
    else:
       rdm = caratteres[idx][lng]
